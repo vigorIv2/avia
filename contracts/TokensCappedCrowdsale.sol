@@ -11,7 +11,7 @@ import "zeppelin-solidity/contracts/math/SafeMath.sol";
 contract TokensCappedCrowdsale is Crowdsale {
     using SafeMath for uint256;
 
-    uint256 public tokensCap;
+    uint256 tokensCap;
 
     function TokensCappedCrowdsale(uint256 _tokensCap) public {
       tokensCap = _tokensCap;
